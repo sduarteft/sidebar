@@ -1,0 +1,37 @@
+
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+ }
+ #sidebar{
+     width: 200px;
+     height: 100%;
+     position: fixed;
+     background: #151719;
+     transition: all 500ms linear;
+    left: -200px;
+ }
+    #sidebar.active{
+     left: 0px;
+ }
+
+ #sidebar ul li{
+     color: #ffffff;
+     list-style: none;
+     padding: 15px 10px;
+     border-bottom: rgba(100, 100,100,.3);
+ }
+ #sidebar .btn-toggle{
+     position: relative;
+     left: 230px;
+     top: 20px;
+     cursor: pointer;
+ }
+ #sidebar .btn-toggle span{
+     display: block;
+     width: 30px;
+     height: 5px;
+     background: #151719;
+     margin: 5px 0;
+ }
